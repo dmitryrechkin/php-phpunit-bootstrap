@@ -1,0 +1,23 @@
+{
+    "name": "dmitryrechkin/php-phpunit-bootstrap",
+	"type": "php-phpunit-bootstrap",
+    "description": "Dmitry Rechkin's - PHPUnit Bootstrap with the binary file to simplify running of unit tests",
+    "keywords": [
+    ],
+    "license": "AGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Dmitry Rechkin",
+            "email": "rechkin@gmail.com",
+            "homepage": "https://github.com/dmitryrechkin/"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "phpunit/phpunit": "^9.5.10",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "bin": [
+        "bin/phpunit.sh"
+    ]
+}
